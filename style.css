@@ -1,0 +1,200 @@
+body{
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+p {
+    color:purple;
+}
+
+
+/* Algum comentário */
+/* MAis  um comentario */
+/* terceiro comentário */
+
+/* Classes */
+.paragraph{
+    background-color: black;
+    color:aqua;
+    padding: 5px;
+}
+
+/* ids */
+#exckusive-title{
+    background-color: blueviolet;
+    color: yellow;
+    padding: orange;
+
+}
+
+/* ordem do css */
+/* 
+h2 {
+    border-bottom: 2px solid red;
+
+}
+*/
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-title {
+    border-bottom: 4px solid green;
+}
+
+/* nome da cor */
+
+.color-name {
+    color: crimson;
+}
+
+/* hex */
+
+.simple-hex{
+    color: #55a398;
+}
+
+.hex-2{
+    color: #00ef00;
+}
+
+.hex-3 {
+    color:#a5f;
+}
+
+/* RGB */
+
+.rgb{
+    color: rgb(199, 21, 210)
+}
+
+/* rgba */
+.rgba{
+    color: rgba(100, 199, 45, 0.3);
+}
+
+/* bgc */
+
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgb(200, 20, 40)
+}
+
+.bg-opacity {
+    background-color: #999;
+    opacity: 0.2;
+    color: #000
+}
+
+bg.image {
+    background-image: url(.img/aurora.png);
+}
+
+.not-centered-bg,
+.centered-bg{
+    background-image: url(./img/ponte.png);
+    height: 400px;
+    width: 400px;
+}
+
+.centered-bg {
+    background-position: center;
+}
+
+/* largura e altura */
+
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+
+.height-width-2 {
+    height: 300px;
+    background-color: #333;
+}
+
+/* padding */
+
+.padding,
+.padding-2 {
+    background-color: #111;
+    color: #fff;
+}
+
+.padding-2 {
+    background-color: #333;
+    padding: 20px;
+}
+
+.padding-3 {
+    background-color: #222;
+    color: #fff;
+    /* padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px; */
+    padding: 5px 20px;
+}
+
+
+.border {
+    border: 5px solid red;
+}
+
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.redondo {
+    border: 4px solid blue;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.redondo-2 {
+    border: 4px solid red;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    border: 4px double red;
+}
+
+
+.redondo-3 {
+    border: 4px dotted red;
+}
+
+/* margem */
+
+.margem {
+    margin: 10px;
+    background-color: #444;
+    padding: 10px;
+}
+
+.box-model {
+    margin: 20px;
+    padding: 15px 20px;
+    border: 3px solid #845;
+    border-radius: 10px;
+    width: 200px;
+    height: 400px;
+}
